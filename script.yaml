@@ -30,17 +30,17 @@
       contentType: 'image/gif'
       resultVariable: ${gif2}
       size: 1308543
-      fromUrl: https://dist.huly.io/init_2.gif
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_2.gif
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${gif3}
       size: 8507842
-      fromUrl: https://dist.huly.io/init_3.gif
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_3.gif
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${gif4}
       size: 18927347
-      fromUrl: https://dist.huly.io/init_4.gif
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_4.gif
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: ${issue5}
