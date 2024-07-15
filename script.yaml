@@ -24,7 +24,7 @@
       data:
         email: 'info@hardcoreeng.com'
         role: 'OWNER'
-        space: contact:space:Contacts
+        space: 'contact:space:Model'
         preson: ${userPerson}
     - type: 'upload'
       contentType: 'image/gif'
