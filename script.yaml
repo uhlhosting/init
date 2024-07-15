@@ -1,0 +1,167 @@
+- name: 'test'
+  default: true
+  steps:
+    - type: 'create'
+      _class: 'contact:class:Person'
+      resultVariable: ${userPerson}
+      data: 
+        space: contact:space:Contacts
+        name: 'John Doe'
+        city: ''
+        avatarType: 'color'
+        avatarProps:
+          color: '#f868bc'
+    - type: 'mixin'
+      _class: 'contact:class:Person'
+      mixin: 'contact:mixin:Employee'
+      data: 
+        space: contact:space:Contacts
+        _id: ${userPerson}
+        active: true
+    - type: 'create'
+      _class: 'contact:class:PersonAccount'
+      resultVariable: ${userAccount}
+      data:
+        email: 'info@hardcoreeng.com'
+        role: 'OWNER'
+        space: contact:space:Contacts
+        preson: ${userPerson}
+    - type: 'upload'
+      contentType: 'image/gif'
+      resultVariable: ${gif2}
+      size: 1308543
+      fromUrl: https://dist.huly.io/init_2.gif
+    - type: 'upload'
+      contentType: 'image/gif'
+      resultVariable: ${gif3}
+      size: 8507842
+      fromUrl: https://dist.huly.io/init_3.gif
+    - type: 'upload'
+      contentType: 'image/gif'
+      resultVariable: ${gif4}
+      size: 18927347
+      fromUrl: https://dist.huly.io/init_4.gif
+    - type: 'create'
+      _class: 'tracker:class:Issue'
+      resultVariable: ${issue5}
+      markdownFields:
+        - 'description'
+      data:
+        space: 'tracker:project:DefaultProject'
+        assignee: '${userPerson}'
+        status: 'tracker:status:Backlog'
+        number: 5
+        priority: 0
+        title: 'Explore all Huly has to offer 🚀'
+        component: null
+        dueDate: null
+        milestone: null
+        estimation: 0
+        remainingTime: 0
+        reportedTime: 0
+        reports: 0
+        attachedTo: 'tracker:ids:NoParent'
+        attachedToClass: 'tracker:class:Issue'
+        collection: 'subIssues'
+        identifier: 'HULY-5'
+        kind: 'tracker:taskTypes:Issue'
+        rank: '#nextRank'
+        relations: []
+        parents: []
+        childInfo: []
+        description: |
+          Now that you know how to create Projects, Issues and Todos, you can get started setting up your team’s workspace. However, there’s so much more to the Huly platform than task tracking! Dive deeper into the world of Huly, where harnessing the power of collaborative project management is just the beginning. Discover the ease and efficiency of managing your projects with us!
+
+          ### Additional Features
+
+          * ➡️ Navigate Huly using these 3 intuitive methods: 
+            * **Command line** (`Cmd`/`Ctrl` + `K`) - Quickly search for items or execute commands.
+            * **Keyboard shortcuts** - Access a comprehensive list by clicking `Help & Support` in the lower left corner of the application.
+            * **Mouse navigation** - Right-click on Issues to open contextual menus and access commonly-used actions.
+          * 👀 **Issue Peek:** Hover over Issues in your Tracker and press the space bar to see a preview of the **Issue’s** details. To scroll through Issue previews, press `J`/`K` or move the mouse.
+          * **↔️ Integrate with GitHub, Google Calendar, Gmail and more!** To learn more about integrating Huly with third-party applications, check out [**Huly Docs**](https://docs.huly.io/integrations/github/). 
+
+          ---
+
+          ### Need some more support?
+
+          * [**Huly Docs**](https://docs.huly.io/) - Our resource for step-by-step tutorials! Learn how to customize the Huly platform to your team’s needs through detailed instructions and video demonstrations.
+          * [**Slack**](https://hulycommunity.slack.com/join/shared_invite/zt-29kl7zmwz-2b3RRVTiWhhtAwzHjBm3Wg#/shared-invite/email) - Our community on Slack is not only an excellent resource for getting in touch directly with our engineers for support, but also a great space for sharing feedback and feature suggestions!
+          * [**YouTube**](https://www.youtube.com/channel/UCUaG4fhRtAVWmsw1Q9PvgWw) - Dive deeper into Huly’s features by watching our demo videos, tutorials and other video content.
+          * Reach out through **[LinkedIn](https://www.linkedin.com/company/hardcoreeng)** and [**Twitter**](https://twitter.com/huly_io) - we’d love to see what you’re building with Huly!
+
+          ---
+
+          🎉 Congratulations! You’ve completed all of the tasks! ✅ 
+
+          We can’t wait to see what you create! 🚀
+    - type: 'create'
+      _class: 'tracker:class:Issue'
+      resultVariable: ${issue4}
+      markdownFields:
+        - 'description'
+      data:
+        space: 'tracker:project:DefaultProject'
+        assignee: '${userPerson}'
+        status: 'tracker:status:Backlog'
+        number: 5
+        priority: 0
+        title: 'Schedule your first Todo 📆'
+        component: null
+        dueDate: null
+        milestone: null
+        estimation: 0
+        remainingTime: 0
+        reportedTime: 0
+        reports: 0
+        attachedTo: 'tracker:ids:NoParent'
+        attachedToClass: 'tracker:class:Issue'
+        collection: 'subIssues'
+        identifier: 'HULY-4'
+        kind: 'tracker:taskTypes:Issue'
+        rank: '#nextRank'
+        relations: []
+        parents: []
+        childInfo: []
+        description: |
+          A **Todo** is a task to be completed by a specific team member. 
+
+          > *But wait … didn’t we just create an **Issue** assigned to a team member?* What’s the difference? 
+
+          At a glance:
+
+          * **Issue** - work that needs to be completed 
+          * **Todo** - an individual’s responsibility to complete that work
+
+          When an Issue is created with the status of “Todo” and assigned to a team member, that team member receives a corresponding Todo item in their personal Planner.
+
+          Let’s see how an Issue status is *automatically updated* based on an individual team member’s progress towards their Todo. Let’s go!
+
+          ---
+
+          ### Task 4 - Schedule your first Todo
+
+          Remember that Issue you just created in the previous step? Because you set the Issue status to “Todo” and assigned it to yourself, you’ve received a corresponding Todo for that Issue.
+
+          Head over to your Planner by clicking the calendar icon in the left sidebar. Here, you’ll see a Todo for the Issue you just created!
+
+          There are 2 ways to schedule a Todo:
+
+          * Click and drag the Todo to your calendar on the right side panel, *or*
+          * Click on the Todo ****to open it in the right side panel. Click `Add Slot` to create a time slot representing when you plan to do the work. From there, you can adjust the day and time and add more slots if needed.
+
+          Notice that when you schedule a Todo, it moves from “Unplanned” to “Scheduled” on the list.
+
+          Now, navigate back to the Tracker by clicking the checkbox icon in the left side panel. Notice that the status *automatically updated* to “In Progress”! That’s because you scheduled your Todo, indicating your commitment to completing the work.
+
+          ![](image://file?file=${gif4}&width=1440)
+
+          If you’d like, go ahead back to your Planner and check off your Todo by clicking the round checkbox that appears when you hover over it. You’ll see that the Issue status automatically updates to “Done”.
+
+          ---
+
+          🎉 Congratulations! You’ve completed Task 4 ✅  
+
+          There is so much more to learn about Todos - how to add private notes, change visibility, view Todos on the Team Planner and more! Learn more on [**Huly Docs**](https://docs.huly.io/team-workflows/todos/) and read about why Todos are so important to the Huly platform on our [**blog**](https://huly.blog/huly-todos).
+
+          ### Next: Task 5 - Explore all Huly has to offer ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue5}&label=HULY-5)  
