@@ -301,8 +301,10 @@
         icon: 'view:ids:IconWithEmoji'
         description: 'Quick guides to learn how to get the most from Huly!'
         private: false
-        members: [${userAccount}]
-        owners: [${userAccount}]
+        members: 
+          - ${userAccount}
+        owners: 
+          - ${userAccount}
         archived: false
         space: 'core:space:Space'
         color: 128221
