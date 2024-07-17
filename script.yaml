@@ -358,9 +358,8 @@
 
           Create a Todo item by typing `[]` then `space` on a new line. An empty checkbox will appear. As you begin typing, a profile icon will appear to the left of the checkbox. Click this icon to select a team member to assign the task to. That team member will receive a notification that they have been assigned a Todo, and they’ll be able to schedule the Todo in their Planner.
 
-          You can assign a Todo item any time by hovering over the checkbox and clicking the profile icon. 
-
-          Try assigning these Todos to yourself!
+          * [ ] You can assign a Todo item any time by hovering over the checkbox and clicking the profile icon. 
+          * [ ] Try assigning these Todos to yourself!
 
           # **Real-time collaboration**
 
