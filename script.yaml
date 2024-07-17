@@ -284,7 +284,6 @@
         size: 1308543
     - type: 'update'
       _class: 'tracker:class:Project'
-      resultVariable: ${teamSpace}
       data:
         _id: 'tracker:project:DefaultProject'
         sequence: 5
@@ -295,6 +294,7 @@
         name: 'Welcome to Huly!'
     - type: 'create'
       _class: 'document:class:Teamspace'
+      resultVariable: ${teamSpace}
       data:
         name: 'Quick-Start Docs'
         type: 'document:spaceType:DefaultTeamspaceType'
