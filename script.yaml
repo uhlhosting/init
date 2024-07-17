@@ -299,6 +299,7 @@
         name: 'Quick-Start Docs'
         type: 'document:spaceType:DefaultTeamspaceType'
         icon: 'view:ids:IconWithEmoji'
+        space: 'core:space:Space'
         color: 128221
     - type: 'default'
       _class: 'document:class:Document'
