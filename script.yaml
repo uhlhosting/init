@@ -98,28 +98,6 @@
           🎉 Congratulations! You’ve completed all of the tasks! ✅ 
 
           We can’t wait to see what you create! 🚀
-    - type: 'default'
-      _class: 'tracker:class:Issue'
-      data:
-        space: 'tracker:project:DefaultProject'
-        assignee: '${userPerson}'
-        status: 'tracker:status:Backlog'
-        priority: 0
-        component: null
-        dueDate: null
-        milestone: null
-        estimation: 0
-        remainingTime: 0
-        reportedTime: 0
-        reports: 0
-        attachedTo: 'tracker:ids:NoParent'
-        attachedToClass: 'tracker:class:Issue'
-        collection: 'subIssues'
-        kind: 'tracker:taskTypes:Issue'
-        rank: '#nextRank'
-        relations: []
-        parents: []
-        childInfo: []
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: ${issue4}
