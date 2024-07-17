@@ -311,7 +311,7 @@
         space: '${teamSpace}'
     - type: 'create'
       _class: 'tracker:class:Project'
-      collabFields: :
+      collabFields:
         - 'content'
       data:
         name: 'Creating Documents in Huly'
