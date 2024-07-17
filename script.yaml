@@ -41,18 +41,13 @@
       resultVariable: ${gif4}
       size: 18927347
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_4.gif
-    - type: 'create'
+    - type: 'default'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue5}
-      markdownFields:
-        - 'description'
       data:
         space: 'tracker:project:DefaultProject'
         assignee: '${userPerson}'
         status: 'tracker:status:Backlog'
-        number: 5
         priority: 0
-        title: 'Explore all Huly has to offer 🚀'
         component: null
         dueDate: null
         milestone: null
@@ -63,12 +58,20 @@
         attachedTo: 'tracker:ids:NoParent'
         attachedToClass: 'tracker:class:Issue'
         collection: 'subIssues'
-        identifier: 'HULY-5'
         kind: 'tracker:taskTypes:Issue'
         rank: '#nextRank'
         relations: []
         parents: []
         childInfo: []
+    - type: 'create'
+      _class: 'tracker:class:Issue'
+      resultVariable: ${issue5}
+      markdownFields:
+        - 'description'
+      data:
+        number: 5
+        title: 'Explore all Huly has to offer 🚀'
+        identifier: 'HULY-5'
         description: |
           Now that you know how to create Projects, Issues and Todos, you can get started setting up your team’s workspace. However, there’s so much more to the Huly platform than task tracking! Dive deeper into the world of Huly, where harnessing the power of collaborative project management is just the beginning. Discover the ease and efficiency of managing your projects with us!
 
@@ -97,71 +100,134 @@
           We can’t wait to see what you create! 🚀
     - type: 'create'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue4}
+      resultVariable: ${issue3}
       markdownFields:
         - 'description'
       data:
-        space: 'tracker:project:DefaultProject'
-        assignee: '${userPerson}'
-        status: 'tracker:status:Backlog'
-        number: 5
-        priority: 0
-        title: 'Schedule your first Todo 📆'
-        component: null
-        dueDate: null
-        milestone: null
-        estimation: 0
-        remainingTime: 0
-        reportedTime: 0
-        reports: 0
-        attachedTo: 'tracker:ids:NoParent'
-        attachedToClass: 'tracker:class:Issue'
-        collection: 'subIssues'
-        identifier: 'HULY-4'
-        kind: 'tracker:taskTypes:Issue'
-        rank: '#nextRank'
-        relations: []
-        parents: []
-        childInfo: []
+        number: 3
+        title: 'Create your first Issue 📝'
+        identifier: 'HULY-3'
         description: |
-          A **Todo** is a task to be completed by a specific team member. 
+          An **Issue** represents a specific task that needs to be completed. Projects can be broken down into Issues. 
 
-          > *But wait … didn’t we just create an **Issue** assigned to a team member?* What’s the difference? 
+          ### Task 3 - Create your first Issue
 
-          At a glance:
+          Let’s create your first Issue in Huly!
 
-          * **Issue** - work that needs to be completed 
-          * **Todo** - an individual’s responsibility to complete that work
+          Click the blue `+ New Issue` button at the stop of the side panel (or simply press `C` from any view!). This will open a dialog where you can enter some initial settings for your Issue. 
 
-          When an Issue is created with the status of “Todo” and assigned to a team member, that team member receives a corresponding Todo item in their personal Planner.
+          > **Tip:** By default, the Issue will be associated with the Project you’re viewing. You can change this to the Project you just created by selecting it from the dropdown in the top left corner.
 
-          Let’s see how an Issue status is *automatically updated* based on an individual team member’s progress towards their Todo. Let’s go!
+          Next, enter some information about your Issue: 
 
-          ---
+          * Provide a **title** and **description**. 
+          * Choose some settings, such as **priority**, **labels**, **estimation** and **due date**. 
+          * The **assignee** will be the default assignee you selected for your project.
+          * ❗ Ensure that the **status** is set to “Todo” — *this is important for the next step!*
 
-          ### Task 4 - Schedule your first Todo
+          When you’re ready, click `Create issue`!
 
-          Remember that Issue you just created in the previous step? Because you set the Issue status to “Todo” and assigned it to yourself, you’ve received a corresponding Todo for that Issue.
-
-          Head over to your Planner by clicking the calendar icon in the left sidebar. Here, you’ll see a Todo for the Issue you just created!
-
-          There are 2 ways to schedule a Todo:
-
-          * Click and drag the Todo to your calendar on the right side panel, *or*
-          * Click on the Todo ****to open it in the right side panel. Click `Add Slot` to create a time slot representing when you plan to do the work. From there, you can adjust the day and time and add more slots if needed.
-
-          Notice that when you schedule a Todo, it moves from “Unplanned” to “Scheduled” on the list.
-
-          Now, navigate back to the Tracker by clicking the checkbox icon in the left side panel. Notice that the status *automatically updated* to “In Progress”! That’s because you scheduled your Todo, indicating your commitment to completing the work.
-
-          ![](image://file?file=${gif4}&width=1440)
-
-          If you’d like, go ahead back to your Planner and check off your Todo by clicking the round checkbox that appears when you hover over it. You’ll see that the Issue status automatically updates to “Done”.
+          ![](image://file?file=${gif3}&width=1440)
 
           ---
 
-          🎉 Congratulations! You’ve completed Task 4 ✅  
+          🎉 Congratulations! You’ve completed Task 3 ✅  
 
-          There is so much more to learn about Todos - how to add private notes, change visibility, view Todos on the Team Planner and more! Learn more on [**Huly Docs**](https://docs.huly.io/team-workflows/todos/) and read about why Todos are so important to the Huly platform on our [**blog**](https://huly.blog/huly-todos).
+          In the next step, you’ll learn how Huly has *automatically* created a Todo for this Issue, which you’ll schedule in your personal Planner. Click the button below to continue!
 
-          ### Next: Task 5 - Explore all Huly has to offer ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue5}&label=HULY-5)  
+          ### Next: Task 4 - Schedule your first Todo ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue4}&label=HULY-4)
+    - type: 'create'
+      _class: 'tracker:class:Issue'
+      resultVariable: ${issue2}
+      markdownFields:
+        - 'description'
+      data:
+        number: 2
+        title: 'Create your first Project 📌'
+        identifier: 'HULY-2'
+        description: |
+          **Projects** contain all the tasks your team will be working on, and they can be organized however you’d like. 
+
+          For example, a software engineering team may choose to create Projects called “Frontend”, “Backend”, “UX/UI” and “Testing”. A small business may choose to create Projects like “Inventory”, “Marketing,” and “Design”. 
+
+          ---
+
+          ### Task 2 - Create your first Project
+
+          Let’s create your first Project in Huly!
+
+          Make sure the Tracker sidebar is open on the left side - if you don’t see it, click the two horizontal lines  `=` to reveal it.
+
+          There are two ways to create a Project:
+
+          * Hover over **YOUR PROJECTS** and click the `+` icon that appears, *or*
+          * Click the dropdown menu next to the `+ New issue` button and select `Create project`. 
+
+          At a minimum, enter a **title** and **default assignee**. You can also add a **description**, choose a custom **identifier** and select an **icon** for your Project (you can read more about these settings in our [Huly Docs](https://docs.huly.io/getting-started/create-project/)). 
+
+          Next, Click `Create`!
+
+          ![](image://file?file=${gif2}&width=1440)
+
+          ---
+
+          🎉 Congratulations! You’ve completed Task 2 ✅ 
+
+          ### Next: Task 3 - Create your first Issue ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue3}&label=HULY-3)
+    - type: 'create'
+      _class: 'tracker:class:Issue'
+      resultVariable: ${issue1}
+      markdownFields:
+        - 'description'
+      data:
+        number: 1
+        status: 'tracker:status:Todo'
+        title: 'Create your first Project 📌'
+        identifier: 'HULY-1'
+        description: |
+          ### **Welcome to Huly, your all-in-one project management platform!** 
+
+          Embark on an exciting journey to master our next-generation project management tool. Packed with features like collaborative editing, team scheduling, video conferencing and more, the Huly platform is totally customizable to your team’s unique needs.
+
+          Let’s get started by setting up your team workspace! You’ll complete **5 tasks** to learn about the essential features of the Huly platform:
+
+          1. Welcome to Huly! 🌟 (you are here!)
+          2. Create your first **Project** 📌
+          3. Create your first **Issue** 📝
+          4. Schedule your first **Todo** 📆
+          5. Explore all Huly has to offer 🚀
+
+          Once you're familiar with Huly, feel free to delete these starter tasks or share them with your team!
+
+          🎉Congratulations! You’ve completed Task 1 just by getting started ✅ Click below to proceed to Task 2!
+
+          ### Next: Task 2 - Create your first Project ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue2}&label=HULY-2)
+    - type: 'default'
+      _class: 'attachment:class:Attachment'
+      data: 
+        attachedToClass: 'tracker:class:Issue'
+        collection: 'attachments'
+        space: 'tracker:project:DefaultProject'
+        type: 'image/gif'
+        lastModified: '#now'
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${issue4}
+        file: ${gif4}
+        name: 'onboarding-create-todo.gif'
+        size: 18927347
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${issue3}
+        file: ${gif3}
+        name: 'onboarding-create-issue.gif'
+        size: 8507842
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${issue2}
+        file: ${gif2}
+        name: 'onboarding-create-project.gif'
+        size: 1308543
