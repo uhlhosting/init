@@ -282,3 +282,13 @@
         file: ${gif2}
         name: 'onboarding-create-project.gif'
         size: 1308543
+    - type: 'update'
+      _class: 'tracker:class:Project'
+      data:
+        _id: 'tracker:project:DefaultProject'
+        sequence: 5
+        space: 'core:space:Space'
+        color: '127775'
+        icon: 'view:ids:IconWithEmoji'
+        identifier: 'HULY'
+        name: 'Welcome to Huly!'
