@@ -301,7 +301,7 @@
         icon: 'view:ids:IconWithEmoji'
         color: 128221
     - type: 'default'
-      _class: 'tracker:class:Project'
+      _class: 'document:class:Document'
       data:
         attachedTo: 'document:ids:NoParent'
         attachedToClass: 'document:class:Document'
@@ -309,8 +309,19 @@
         version: 0
         snapshots: 0
         space: '${teamSpace}'
+    - type: 'upload'
+      contentType: 'image/gif'
+      resultVariable: ${docGif1}
+      size: 478819
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_1.gif
+    - type: 'upload'
+      contentType: 'image/gif'
+      resultVariable: ${docGif2}
+      size: 562683
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_2.gif
     - type: 'create'
-      _class: 'tracker:class:Project'
+      _class: 'document:class:Document'
+      resultVariable: ${doc1}
       collabFields:
         - 'content'
       data:
@@ -364,3 +375,49 @@
           # **Real-time collaboration**
 
           Team members can collaborate on Documents at the same time! Multiple people can edit and add to Documents simultaneously, and in a future version team members’ live cursors will be visible on the screen when working collaboratively. Check out our [video](https://www.youtube.com/watch?v=CyRlFuOaruQ) to learn more about collaborative editing in Huly Documents!
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${doc1}
+        attachedToClass: 'document:class:Document'
+        collection: 'embeddings'
+        file: ${docGif1}
+        name: 'onboardingworkspace.gif'
+        size: 478819
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${doc1}
+        attachedToClass: 'document:class:Document'
+        collection: 'embeddings'
+        file: ${docGif2}
+        name: 'onboardingworkspace-2.gif'
+        size: 562683
+- name: 'tracex-init'
+  default: false
+  steps:
+    - type: 'create'
+      _class: 'contact:class:Person'
+      resultVariable: ${userPerson}
+      data: 
+        space: contact:space:Contacts
+        name: 'John Doe'
+        city: ''
+        avatarType: 'color'
+        avatarProps:
+          color: '#f868bc'
+    - type: 'mixin'
+      _class: 'contact:class:Person'
+      mixin: 'contact:mixin:Employee'
+      data: 
+        space: contact:space:Contacts
+        _id: ${userPerson}
+        active: true
+    - type: 'create'
+      _class: 'contact:class:PersonAccount'
+      resultVariable: ${userAccount}
+      data:
+        email: 'info@hardcoreeng.com'
+        role: 'OWNER'
+        space: 'core:space:Model'
+        preson: ${userPerson}
