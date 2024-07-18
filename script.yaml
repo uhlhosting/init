@@ -25,7 +25,7 @@
         email: 'info@hardcoreeng.com'
         role: 'OWNER'
         space: 'core:space:Model'
-        preson: ${userPerson}
+        person: ${userPerson}
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${gif2}
@@ -307,7 +307,7 @@
           - ${userAccount}
         archived: false
         space: 'core:space:Space'
-        color: 128221
+        color: '128221'
     - type: 'default'
       _class: 'document:class:Document'
       data:
@@ -428,4 +428,4 @@
         email: 'info@hardcoreeng.com'
         role: 'OWNER'
         space: 'core:space:Model'
-        preson: ${userPerson}
+        person: ${userPerson}
