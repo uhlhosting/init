@@ -401,6 +401,68 @@
         file: ${docGif2}
         name: 'onboardingworkspace-2.gif'
         size: 562683
+    - type: 'upload'
+      contentType: 'image/jpeg'
+      resultVariable: ${docImage3}
+      size: 186016
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_3.jpeg
+    - type: 'upload'
+      contentType: 'image/jpeg'
+      resultVariable: ${docImage4}
+      size: 85948
+      fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_4.jpeg
+    - type: 'create'
+      _class: 'document:class:Document'
+      resultVariable: ${doc2}
+      collabFields:
+        - 'content'
+      data:
+        name: 'Team Planning in Huly'
+        content: |
+          Huly’s **Team Planner** is a powerful tool that provides a bird's-eye view of your team's workflow, enhancing collaboration and efficiency. This is a dedicated space where you can see your team's scheduled activities and progress. 
+
+          To understand how to use the Team Planner in Huly, it’s important to understand how Todos are created and scheduled by team members. Check out this guide on [**Todos**](https://docs.huly.io/team-workflows/todos/) to learn more.
+
+          You can access your Team Planner any time by clicking the sun icon in the left sidebar. It won’t look like much until your team starts using Huly to schedule Todos, but let’s dive in deeper into how this feature can improve your workflows!
+
+          # **Understand your team’s agenda at a glance**
+
+          - **Today’s and Tomorrow’s Planned Todos:** View a clear agenda of what's planned for today and tomorrow. This immediate insight helps in aligning your tasks with the team's priorities and ensures everyone is on the same page.
+
+          - **Review Completed Tasks:** Easily track completed Todos from today, yesterday, and any previous days. This retrospective view not only offers a sense of accomplishment but also aids in evaluating team productivity and planning future tasks more effectively.
+
+          # **Optimize your team’s efficiency**
+
+          - **Enhanced Visibility and Coordination:** By having a comprehensive overview of the team's planned and completed Todos, you can better coordinate efforts, avoid overlaps, and identify areas needing more resources.
+
+          - **Streamlined Communication:** The Team Planner reduces the need for constant check-ins and meetings, as team members can directly see each other’s planned and completed tasks, fostering a more efficient workflow.
+
+
+          ***Team Planner - Agenda view***
+          ![](image://file?file=${docImage3}&width=1440)
+
+          ***Team Planner - Calendar view***
+          ![](image://file?file=${docImage4}&width=1440)
+
+          As you continue to use Todos in Huly, you’ll discover how they seamlessly integrate into both your personal and team planning processes, elevating the way you manage and execute tasks. The Team Planner is just one of the many ways Huly empowers you and your team to stay organized, synchronized, and productive.
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${doc2}
+        attachedToClass: 'document:class:Document'
+        collection: 'embeddings'
+        file: ${docImage3}
+        name: 'onboardingworkspace.jpeg'
+        size: 186016
+    - type: 'create'
+      _class: 'attachment:class:Attachment'
+      data:
+        attachedTo: ${doc2}
+        attachedToClass: 'document:class:Document'
+        collection: 'embeddings'
+        file: ${docImage4}
+        name: 'onboardingworkspace-2.jpeg'
+        size: 85948
 - name: 'tracex-init'
   default: false
   steps:
