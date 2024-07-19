@@ -29,17 +29,14 @@
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${gif2}
-      size: 1308543
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_2.gif
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${gif3}
-      size: 8507842
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_3.gif
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${gif4}
-      size: 18927347
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_4.gif
     - type: 'default'
       _class: 'tracker:class:Issue'
@@ -267,21 +264,21 @@
         attachedTo: ${issue4}
         file: ${gif4}
         name: 'onboarding-create-todo.gif'
-        size: 18927347
+        size: ${gif4_size}
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
         attachedTo: ${issue3}
         file: ${gif3}
         name: 'onboarding-create-issue.gif'
-        size: 8507842
+        size: ${gif3_size}
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
         attachedTo: ${issue2}
         file: ${gif2}
         name: 'onboarding-create-project.gif'
-        size: 1308543
+        size: ${gif2_size}
     - type: 'update'
       _class: 'tracker:class:Project'
       data:
@@ -320,12 +317,10 @@
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${docGif1}
-      size: 478819
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_1.gif
     - type: 'upload'
       contentType: 'image/gif'
       resultVariable: ${docGif2}
-      size: 562683
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_2.gif
     - type: 'create'
       _class: 'document:class:Document'
@@ -391,7 +386,7 @@
         collection: 'embeddings'
         file: ${docGif1}
         name: 'onboardingworkspace.gif'
-        size: 478819
+        size: ${docGif1_size}
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
@@ -400,16 +395,14 @@
         collection: 'embeddings'
         file: ${docGif2}
         name: 'onboardingworkspace-2.gif'
-        size: 562683
+        size: ${docGif2_size}
     - type: 'upload'
       contentType: 'image/jpeg'
       resultVariable: ${docImage3}
-      size: 186016
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_3.jpeg
     - type: 'upload'
       contentType: 'image/jpeg'
       resultVariable: ${docImage4}
-      size: 85948
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_4.jpeg
     - type: 'create'
       _class: 'document:class:Document'
@@ -453,7 +446,7 @@
         collection: 'embeddings'
         file: ${docImage3}
         name: 'onboardingworkspace.jpeg'
-        size: 186016
+        size: ${docImage3_size}
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
@@ -462,7 +455,7 @@
         collection: 'embeddings'
         file: ${docImage4}
         name: 'onboardingworkspace-2.jpeg'
-        size: 85948
+        size: ${docImage4_size}
 - name: 'tracex-init'
   default: false
   steps:
