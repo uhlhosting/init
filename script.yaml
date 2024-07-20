@@ -447,6 +447,7 @@
         file: ${docImage3}
         name: 'onboardingworkspace.jpeg'
         size: ${docImage3_size}
+        type: 'image/jpeg'
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
@@ -456,6 +457,7 @@
         file: ${docImage4}
         name: 'onboardingworkspace-2.jpeg'
         size: ${docImage4_size}
+        type: 'image/jpeg'
 - name: 'tracex-init'
   default: false
   steps:
