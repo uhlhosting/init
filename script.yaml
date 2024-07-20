@@ -3,7 +3,7 @@
   steps:
     - type: 'create'
       _class: 'contact:class:Person'
-      resultVariable: ${userPerson}
+      resultVariable: userPerson
       data: 
         space: contact:space:Contacts
         name: 'John Doe'
@@ -20,7 +20,7 @@
         active: true
     - type: 'create'
       _class: 'contact:class:PersonAccount'
-      resultVariable: ${userAccount}
+      resultVariable: userAccount
       data:
         email: 'info@hardcoreeng.com'
         role: 'OWNER'
@@ -28,15 +28,15 @@
         person: ${userPerson}
     - type: 'upload'
       contentType: 'image/gif'
-      resultVariable: ${gif2}
+      resultVariable: gif2
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_2.gif
     - type: 'upload'
       contentType: 'image/gif'
-      resultVariable: ${gif3}
+      resultVariable: gif3
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_3.gif
     - type: 'upload'
       contentType: 'image/gif'
-      resultVariable: ${gif4}
+      resultVariable: gif4
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/init_4.gif
     - type: 'default'
       _class: 'tracker:class:Issue'
@@ -62,7 +62,7 @@
         childInfo: []
     - type: 'create'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue5}
+      resultVariable: issue5
       markdownFields:
         - 'description'
       data:
@@ -97,7 +97,7 @@
           We can’t wait to see what you create! 🚀
     - type: 'create'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue4}
+      resultVariable: issue4
       markdownFields:
         - 'description'
       data:
@@ -148,7 +148,7 @@
           ### Next: Task 5 - Explore all Huly has to offer ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue5}&label=HULY-5)  
     - type: 'create'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue3}
+      resultVariable: issue3
       markdownFields:
         - 'description'
       data:
@@ -186,7 +186,7 @@
           ### Next: Task 4 - Schedule your first Todo ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue4}&label=HULY-4)
     - type: 'create'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue2}
+      resultVariable: issue2
       markdownFields:
         - 'description'
       data:
@@ -224,7 +224,7 @@
           ### Next: Task 3 - Create your first Issue ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue3}&label=HULY-3)
     - type: 'create'
       _class: 'tracker:class:Issue'
-      resultVariable: ${issue1}
+      resultVariable: issue1
       markdownFields:
         - 'description'
       data:
@@ -291,7 +291,7 @@
         name: 'Welcome to Huly!'
     - type: 'create'
       _class: 'document:class:Teamspace'
-      resultVariable: ${teamSpace}
+      resultVariable: teamSpace
       data:
         name: 'Quick-Start Docs'
         type: 'document:spaceType:DefaultTeamspaceType'
@@ -316,15 +316,15 @@
         space: '${teamSpace}'
     - type: 'upload'
       contentType: 'image/gif'
-      resultVariable: ${docGif1}
+      resultVariable: docGif1
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_1.gif
     - type: 'upload'
       contentType: 'image/gif'
-      resultVariable: ${docGif2}
+      resultVariable: docGif2
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_2.gif
     - type: 'create'
       _class: 'document:class:Document'
-      resultVariable: ${doc1}
+      resultVariable: doc1
       collabFields:
         - 'content'
       data:
@@ -398,15 +398,15 @@
         size: ${docGif2_size}
     - type: 'upload'
       contentType: 'image/jpeg'
-      resultVariable: ${docImage3}
+      resultVariable: docImage3
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_3.jpeg
     - type: 'upload'
       contentType: 'image/jpeg'
-      resultVariable: ${docImage4}
+      resultVariable: docImage4
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/doc_4.jpeg
     - type: 'create'
       _class: 'document:class:Document'
-      resultVariable: ${doc2}
+      resultVariable: doc2
       collabFields:
         - 'content'
       data:
@@ -461,7 +461,7 @@
   steps:
     - type: 'create'
       _class: 'contact:class:Person'
-      resultVariable: ${userPerson}
+      resultVariable: userPerson
       data: 
         space: contact:space:Contacts
         name: 'John Doe'
@@ -478,7 +478,7 @@
         active: true
     - type: 'create'
       _class: 'contact:class:PersonAccount'
-      resultVariable: ${userAccount}
+      resultVariable: userAccount
       data:
         email: 'info@hardcoreeng.com'
         role: 'OWNER'
