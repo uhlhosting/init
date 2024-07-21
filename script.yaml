@@ -70,16 +70,16 @@
         title: 'Explore all Huly has to offer 🚀'
         identifier: 'HULY-5'
         description: |
-          Now that you know how to create Projects, Issues and Todos, you can get started setting up your team’s workspace. However, there’s so much more to the Huly platform than task tracking! Dive deeper into the world of Huly, where harnessing the power of collaborative project management is just the beginning. Discover the ease and efficiency of managing your projects with us!
+          Now that you know how to create projects, issues and action items, you can get started setting up your team’s workspace. However, there’s so much more to the Huly platform than task tracking! Dive deeper into the world of Huly, where harnessing the power of collaborative project management is just the beginning. Discover the ease and efficiency of managing your projects with us!
 
           ### Additional Features
 
           * ➡️ Navigate Huly using these 3 intuitive methods: 
             * **Command line** (`Cmd`/`Ctrl` + `K`) - Quickly search for items or execute commands.
             * **Keyboard shortcuts** - Access a comprehensive list by clicking `Help & Support` in the lower left corner of the application.
-            * **Mouse navigation** - Right-click on Issues to open contextual menus and access commonly-used actions.
-          * 👀 **Issue Peek:** Hover over Issues in your Tracker and press the space bar to see a preview of the **Issue’s** details. To scroll through Issue previews, press `J`/`K` or move the mouse.
-          * **↔️ Integrate with GitHub, Google Calendar, Gmail and more!** To learn more about integrating Huly with third-party applications, check out [**Huly Docs**](https://docs.huly.io/integrations/github/). 
+            * **Mouse navigation** - Right-click on issues to open contextual menus and access commonly-used actions.
+          * 👀 **Issue Peek:** Hover over issues in your Tracker and press the space bar to see a preview of the **issue’s** details. To scroll through issue previews, press `J`/`K` or move the mouse.
+          * **↔️ Integrate with GitHub, Google Calendar, Gmail and more!** 
 
           ---
 
@@ -87,8 +87,8 @@
 
           * [**Huly Docs**](https://docs.huly.io/) - Our resource for step-by-step tutorials! Learn how to customize the Huly platform to your team’s needs through detailed instructions and video demonstrations.
           * [**Slack**](https://hulycommunity.slack.com/join/shared_invite/zt-29kl7zmwz-2b3RRVTiWhhtAwzHjBm3Wg#/shared-invite/email) - Our community on Slack is not only an excellent resource for getting in touch directly with our engineers for support, but also a great space for sharing feedback and feature suggestions!
-          * [**YouTube**](https://www.youtube.com/channel/UCUaG4fhRtAVWmsw1Q9PvgWw) - Dive deeper into Huly’s features by watching our demo videos, tutorials and other video content.
-          * Reach out through **[LinkedIn](https://www.linkedin.com/company/hardcoreeng)** and [**Twitter**](https://twitter.com/huly_io) - we’d love to see what you’re building with Huly!
+          * [**YouTube**](https://www.youtube.com/@huly_io) - Dive deeper into Huly’s features by watching our demo videos, tutorials and other video content.
+          * Reach out through **[LinkedIn](https://www.linkedin.com/company/hulylabs/)** and [**Twitter**](https://twitter.com/huly_io) - we’d love to see what you’re building with Huly!
 
           ---
 
@@ -102,48 +102,46 @@
         - 'description'
       data:
         number: 4
-        title: 'Schedule your first Todo 📆'
+        title: 'Schedule your first Action Item 📆'
         identifier: 'HULY-4'
         description: |
-          A **Todo** is a task to be completed by a specific team member. 
+          An **Action Item** is a task to be completed by a specific team member. 
 
-          > *But wait … didn’t we just create an **Issue** assigned to a team member?* What’s the difference? 
+          > *But wait … didn’t we just create an **issue** assigned to a team member?* What’s the difference? 
 
           At a glance:
 
           * **Issue** - work that needs to be completed 
-          * **Todo** - an individual’s responsibility to complete that work
+          * **Action Item** - an individual’s responsibility to complete that work
 
-          When an Issue is created with the status of “Todo” and assigned to a team member, that team member receives a corresponding Todo item in their personal Planner.
+          When an issue is created with the status of “Todo” and assigned to a team member, that team member receives a corresponding Action Item in their personal Planner.
 
-          Let’s see how an Issue status is *automatically updated* based on an individual team member’s progress towards their Todo. Let’s go!
+          Let’s see how the issue status is *automatically updated* based on an individual team member’s progress towards their Action Item. Let’s go!
 
           ---
 
-          ### Task 4 - Schedule your first Todo
+          ### Task 4 - Schedule your first Action Item
 
-          Remember that Issue you just created in the previous step? Because you set the Issue status to “Todo” and assigned it to yourself, you’ve received a corresponding Todo for that Issue.
+          Remember that issue you just created in the previous step? Because you set the issue status to “Todo” and assigned it to yourself, you’ve received a corresponding Action Item for that issue.
 
-          Head over to your Planner by clicking the calendar icon in the left sidebar. Here, you’ll see a Todo for the Issue you just created!
+          Head over to your Planner by clicking the calendar icon in the left sidebar. Here, you’ll see an Action Item for the issue you just created!
 
-          There are 2 ways to schedule a Todo:
+          There are 2 ways to schedule an Action Item:
 
-          * Click and drag the Todo to your calendar on the right side panel, *or*
-          * Click on the Todo ****to open it in the right side panel. Click `Add Slot` to create a time slot representing when you plan to do the work. From there, you can adjust the day and time and add more slots if needed.
+          * Click and drag the Action Item to your calendar on the right side panel, *or*
+          * Click on the Action Item ****to open it in the right side panel. Click `Add Slot` to create a time slot representing when you plan to do the work. From there, you can adjust the day and time and add more slots if needed.
 
-          Notice that when you schedule a Todo, it moves from “Unplanned” to “Scheduled” on the list.
+          Notice that when you schedule an Action Item, it moves from “Unplanned” to “Scheduled” on your list.
 
-          Now, navigate back to the Tracker by clicking the checkbox icon in the left side panel. Notice that the status *automatically updated* to “In Progress”! That’s because you scheduled your Todo, indicating your commitment to completing the work.
+          Now, navigate back to the Tracker by clicking the checkbox icon in the left side panel. Notice that the status of your issue *automatically updated* to “In Progress”! That’s because you scheduled your Action Item, indicating your commitment to completing the work.
 
           ![](image://file?file=${gif4}&width=1440)
 
-          If you’d like, go ahead back to your Planner and check off your Todo by clicking the round checkbox that appears when you hover over it. You’ll see that the Issue status automatically updates to “Done”.
+          If you’d like, go ahead back to your Planner and check off your Action Item by clicking the round checkbox that appears when you hover over it. You’ll see that the issue status automatically updates to “Done”.
 
           ---
 
           🎉 Congratulations! You’ve completed Task 4 ✅  
-
-          There is so much more to learn about Todos - how to add private notes, change visibility, view Todos on the Team Planner and more! Learn more on [**Huly Docs**](https://docs.huly.io/team-workflows/todos/) and read about why Todos are so important to the Huly platform on our [**blog**](https://huly.blog/huly-todos).
 
           ### Next: Task 5 - Explore all Huly has to offer ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue5}&label=HULY-5)  
     - type: 'create'
@@ -153,20 +151,20 @@
         - 'description'
       data:
         number: 3
-        title: 'Create your first Issue 📝'
+        title: 'Create your first issue 📝'
         identifier: 'HULY-3'
         description: |
-          An **Issue** represents a specific task that needs to be completed. Projects can be broken down into Issues. 
+          An **issue** represents a specific task that needs to be completed. Projects can be broken down into issues and sub-issues.
 
-          ### Task 3 - Create your first Issue
+          ### Task 3 - Create your first issue
 
-          Let’s create your first Issue in Huly!
+          Let’s create your first issue in Huly!
 
-          Click the blue `+ New Issue` button at the stop of the side panel (or simply press `C` from any view!). This will open a dialog where you can enter some initial settings for your Issue. 
+          Click the blue `+ New Issue` button at the stop of the side panel (or simply press `C` from any view!). This will open a dialog where you can enter some initial settings for your issue. 
 
-          > **Tip:** By default, the Issue will be associated with the Project you’re viewing. You can change this to the Project you just created by selecting it from the dropdown in the top left corner.
+          > **Tip:** By default, the issue will be associated with the project you’re currently viewing. You can change this to the project you just created by selecting it from the dropdown in the top left corner.
 
-          Next, enter some information about your Issue: 
+          Next, enter some information about your issue: 
 
           * Provide a **title** and **description**. 
           * Choose some settings, such as **priority**, **labels**, **estimation** and **due date**. 
@@ -181,9 +179,9 @@
 
           🎉 Congratulations! You’ve completed Task 3 ✅  
 
-          In the next step, you’ll learn how Huly has *automatically* created a Todo for this Issue, which you’ll schedule in your personal Planner. Click the button below to continue!
+          In the next step, you’ll learn how Huly has *automatically* created an Action Item for this issue, which you’ll schedule in your personal Planner. Click the button below to continue!
 
-          ### Next: Task 4 - Schedule your first Todo ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue4}&label=HULY-4)
+          ### Next: Task 4 - Schedule your first Action Item ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue4}&label=HULY-4)
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue2
@@ -191,29 +189,29 @@
         - 'description'
       data:
         number: 2
-        title: 'Create your first Project 📌'
+        title: 'Create your first project 📌'
         identifier: 'HULY-2'
         description: |
           **Projects** contain all the tasks your team will be working on, and they can be organized however you’d like. 
 
-          For example, a software engineering team may choose to create Projects called “Frontend”, “Backend”, “UX/UI” and “Testing”. A small business may choose to create Projects like “Inventory”, “Marketing,” and “Design”. 
+          For example, a software engineering team may choose to create projects called “Frontend”, “Backend”, “UX/UI” and “Testing”. A small business may choose to create projects like “Inventory”, “Marketing,” and “Design”. 
 
           ---
 
-          ### Task 2 - Create your first Project
+          ### Task 2 - Create your first project
 
-          Let’s create your first Project in Huly!
+          Let’s create your first project in Huly!
 
           Make sure the Tracker sidebar is open on the left side - if you don’t see it, click the two horizontal lines  `=` to reveal it.
 
-          There are two ways to create a Project:
+          There are two ways to create a project:
 
           * Hover over **YOUR PROJECTS** and click the `+` icon that appears, *or*
           * Click the dropdown menu next to the `+ New issue` button and select `Create project`. 
 
-          At a minimum, enter a **title** and **default assignee**. You can also add a **description**, choose a custom **identifier** and select an **icon** for your Project (you can read more about these settings in our [Huly Docs](https://docs.huly.io/getting-started/create-project/)). 
+          A **title** and **default assignee** are required. You can also add a **description**, choose a custom **identifier** and select an **icon** for your project. 
 
-          Next, Click `Create`!
+          Next, click `Create`!
 
           ![](image://file?file=${gif2}&width=1440)
 
@@ -221,7 +219,7 @@
 
           🎉 Congratulations! You’ve completed Task 2 ✅ 
 
-          ### Next: Task 3 - Create your first Issue ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue3}&label=HULY-3)
+          ### Next: Task 3 - Create your first issue ➡️  [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue3}&label=HULY-3)
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue1
@@ -230,7 +228,7 @@
       data:
         number: 1
         status: 'tracker:status:Todo'
-        title: 'Create your first Project 📌'
+        title: 'Create your first project 📌'
         identifier: 'HULY-1'
         description: |
           ### **Welcome to Huly, your all-in-one project management platform!** 
@@ -240,16 +238,16 @@
           Let’s get started by setting up your team workspace! You’ll complete **5 tasks** to learn about the essential features of the Huly platform:
 
           1. Welcome to Huly! 🌟 (you are here!)
-          2. Create your first **Project** 📌
-          3. Create your first **Issue** 📝
-          4. Schedule your first **Todo** 📆
+          2. Create your first **project** 📌
+          3. Create your first **issue** 📝
+          4. Schedule your first **Action Item** 📆
           5. Explore all Huly has to offer 🚀
 
           Once you're familiar with Huly, feel free to delete these starter tasks or share them with your team!
 
           🎉Congratulations! You’ve completed Task 1 just by getting started ✅ Click below to proceed to Task 2!
 
-          ### Next: Task 2 - Create your first Project ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue2}&label=HULY-2)
+          ### Next: Task 2 - Create your first project ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue2}&label=HULY-2)
     - type: 'default'
       _class: 'attachment:class:Attachment'
       data: 
@@ -332,7 +330,7 @@
         content: |
           # **Creating a teamspace**
 
-          Documents are organized into teamspaces, which can be used to model your team’s specific needs. For example, you may choose to organize your Documents into teamspaces called “Features”, “Marketing”, “Style Guides” etc.
+          Documents are organized into teamspaces, which can be used to model your team’s organizational structure. For example, you may choose to organize your documents into teamspaces called “Features”, “Marketing”, “Style Guides” etc.
 
           To create a teamspace, click the `+` that appears when hovering over the word “Teamspaces” in the sidebar, or by clicking the dropdown arrow next to the `+ Create a Document` button and selecting `Create teamspace`.
 
@@ -342,17 +340,17 @@
 
           There are two ways to create a document:
 
-          Click the `+ Create a document` button at the top of the Documents sidebar. This opens a dialog with the option to select a teamspace for your Document; the default parent will be the most recently selected teamspace or Document. Enter a title for your Document and click `Create`.
+          Click the `+ Create a document` button at the top of the sidebar. This opens a dialog with the option to select a teamspace for your document; the default parent will be the most recently selected teamspace or document. Enter a title for your document and click `Create`.
 
-          Hover over the a teamspace name or any other Document and click the `+` button that appears. The new Document will automatically be nested within the Teamspace or Document you selected.
+          Hover over the a teamspace name or any other document and click the `+` button that appears. The new document will automatically be nested within the teamspace or document you selected.
 
           ![](image://file?file=${docGif2}&width=1440)
 
-          # **Formatting Document content**
+          # **Formatting document content**
 
           Documents support markdown formatting. There are a few ways to access formatting options for your text:
 
-          Type markdown syntax directly into your Document.
+          Type markdown syntax directly into your document.
 
           Use the floating toolbar that appears when text is selected on the page.
 
@@ -360,24 +358,24 @@
 
           Images, tables and separator lines are also available by hovering over text and clicking the `+` icon that appears on the left side.
 
-          # **Enrich your documents with @mentions, Todos and collaboration**
+          # **Enrich your documents with @mentions, Action Items and live collaboration**
 
-          Documents are directly integrated within the rest of the Huly platform, making it easy to tag team members, assign Todos and connect to Issues. Team members can collaborate in real time, eliminating the need to send files back and forth or meet to discuss revisions.
+          Documents are directly integrated within the rest of the Huly platform, making it easy to tag team members, assign Action Items and link to issues. Team members can collaborate in real time, eliminating the need to send files back and forth or meet to discuss revisions.
 
           # **Mentions**
 
-          Mention a team member by using @mention syntax. The member will receive a notification that they have been mentioned in the Document. 
+          Mention a team member by using @mention syntax. The member will receive a notification that they have been mentioned in the document. 
 
-          # **Creating Todos**
+          # **Creating Action Items**
 
-          Create a Todo item by typing `[]` then `space` on a new line. An empty checkbox will appear. As you begin typing, a profile icon will appear to the left of the checkbox. Click this icon to select a team member to assign the task to. That team member will receive a notification that they have been assigned a Todo, and they’ll be able to schedule the Todo in their Planner.
+          Create an Action Item by typing `[]` then `space` on a new line. Alternatively, type `/` and select `Action Item` from the dropdown menu. An empty checkbox will appear, and as you begin typing, a profile icon will appear to the left of the checkbox. Click this icon to select a team member to assign the Action Item to. That team member will receive a notification that they have been assigned an Action Item, and they’ll be able to schedule the Action Item in their Planner.
 
-          * [ ] You can assign a Todo item any time by hovering over the checkbox and clicking the profile icon. 
-          * [ ] Try assigning these Todos to yourself!
+          * [ ] You can assign an Action Item any time by hovering over the checkbox and clicking the profile icon. 
+          * [ ] Try assigning these Action Items to yourself!
 
           # **Real-time collaboration**
 
-          Team members can collaborate on Documents at the same time! Multiple people can edit and add to Documents simultaneously, and in a future version team members’ live cursors will be visible on the screen when working collaboratively. Check out our [video](https://www.youtube.com/watch?v=CyRlFuOaruQ) to learn more about collaborative editing in Huly Documents!
+          Team members can collaborate on documents at the same time! Multiple people can edit and add to documents simultaneously. Check out our [video](https://www.youtube.com/watch?v=cspdJ5TjFNQ) to learn more about collaborative editing in Huly documents!
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
@@ -414,21 +412,19 @@
         content: |
           Huly’s **Team Planner** is a powerful tool that provides a bird's-eye view of your team's workflow, enhancing collaboration and efficiency. This is a dedicated space where you can see your team's scheduled activities and progress. 
 
-          To understand how to use the Team Planner in Huly, it’s important to understand how Todos are created and scheduled by team members. Check out this guide on [**Todos**](https://docs.huly.io/team-workflows/todos/) to learn more.
-
-          You can access your Team Planner any time by clicking the sun icon in the left sidebar. It won’t look like much until your team starts using Huly to schedule Todos, but let’s dive in deeper into how this feature can improve your workflows!
+          You can access your Team Planner any time by clicking the sun icon in the left sidebar. It won’t look like much until your team starts using Huly to schedule Action Items, but let’s dive in deeper into how this feature can improve your workflows!
 
           # **Understand your team’s agenda at a glance**
 
-          - **Today’s and Tomorrow’s Planned Todos:** View a clear agenda of what's planned for today and tomorrow. This immediate insight helps in aligning your tasks with the team's priorities and ensures everyone is on the same page.
+          - **View Action Items:** On your Team Planner, you can see a clear agenda of what's planned for today and tomorrow. This immediate insight helps in aligning your tasks with the team's priorities and ensures everyone is on the same page.
 
-          - **Review Completed Tasks:** Easily track completed Todos from today, yesterday, and any previous days. This retrospective view not only offers a sense of accomplishment but also aids in evaluating team productivity and planning future tasks more effectively.
+          - **Review completed tasks:** Easily track completed Action Items from today, yesterday, and any previous days. This retrospective view not only offers a sense of accomplishment but also aids in evaluating team productivity and planning future tasks more effectively.
 
           # **Optimize your team’s efficiency**
 
-          - **Enhanced Visibility and Coordination:** By having a comprehensive overview of the team's planned and completed Todos, you can better coordinate efforts, avoid overlaps, and identify areas needing more resources.
+          - **Enhanced visibility and coordination:** By having a comprehensive overview of the team's planned and completed Action Items, you can better coordinate efforts, avoid overlaps, and identify areas needing more resources.
 
-          - **Streamlined Communication:** The Team Planner reduces the need for constant check-ins and meetings, as team members can directly see each other’s planned and completed tasks, fostering a more efficient workflow.
+          - **Streamlined communication:** The Team Planner reduces the need for constant check-ins and meetings, as team members can directly see each other’s planned and completed tasks, fostering a more efficient workflow.
 
 
           ***Team Planner - Agenda view***
@@ -437,7 +433,7 @@
           ***Team Planner - Calendar view***
           ![](image://file?file=${docImage4}&width=1440)
 
-          As you continue to use Todos in Huly, you’ll discover how they seamlessly integrate into both your personal and team planning processes, elevating the way you manage and execute tasks. The Team Planner is just one of the many ways Huly empowers you and your team to stay organized, synchronized, and productive.
+          As you continue to use Action Items in Huly, you’ll discover how they seamlessly integrate into both your personal and team planning processes, elevating the way you manage and execute tasks. The Team Planner is just one of the many ways Huly empowers you and your team to stay organized, synchronized, and productive.
     - type: 'create'
       _class: 'attachment:class:Attachment'
       data:
