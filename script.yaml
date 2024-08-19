@@ -515,12 +515,6 @@
     - type: 'update'
       _class: 'core:class:PluginConfiguration'
       data:
-        _id: 'plugin-configuration-drive'
-        enabled: false
-        space: 'core:space:Model'
-    - type: 'update'
-      _class: 'core:class:PluginConfiguration'
-      data:
         _id: 'plugin-configuration-time'
         enabled: false
         space: 'core:space:Model'
