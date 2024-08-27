@@ -63,7 +63,7 @@
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue5
-      markdownFields:
+      collabFields:
         - 'description'
       data:
         number: 5
@@ -98,7 +98,7 @@
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue4
-      markdownFields:
+      collabFields:
         - 'description'
       data:
         number: 4
@@ -147,7 +147,7 @@
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue3
-      markdownFields:
+      collabFields:
         - 'description'
       data:
         number: 3
@@ -185,7 +185,7 @@
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue2
-      markdownFields:
+      collabFields:
         - 'description'
       data:
         number: 2
@@ -223,7 +223,7 @@
     - type: 'create'
       _class: 'tracker:class:Issue'
       resultVariable: issue1
-      markdownFields:
+      collabFields:
         - 'description'
       data:
         number: 1
