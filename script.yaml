@@ -454,6 +454,12 @@
         name: 'onboardingworkspace-2.jpeg'
         size: ${docImage4_size}
         type: 'image/jpeg'
+    - type: 'update'
+      _class: 'core:class:PluginConfiguration'
+      data:
+        _id: 'plugin-configuration-calendar'
+        enabled: true
+        space: 'core:space:Model'
 - name: 'tracex-init'
   default: false
   steps:
