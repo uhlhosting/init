@@ -1,6 +1,12 @@
 - name: 'test'
   default: true
   steps:
+    - type: 'update'
+      _class: 'core:class:PluginConfiguration'
+      data:
+        _id: 'plugin-configuration-calendar'
+        enabled: true
+        space: 'core:space:Model'
     - type: 'create'
       _class: 'contact:class:Person'
       resultVariable: userPerson
@@ -454,40 +460,9 @@
         name: 'onboardingworkspace-2.jpeg'
         size: ${docImage4_size}
         type: 'image/jpeg'
-    - type: 'update'
-      _class: 'core:class:PluginConfiguration'
-      data:
-        _id: 'plugin-configuration-calendar'
-        enabled: true
-        space: 'core:space:Model'
 - name: 'tracex-init'
   default: false
   steps:
-    - type: 'create'
-      _class: 'contact:class:Person'
-      resultVariable: userPerson
-      data: 
-        space: contact:space:Contacts
-        name: 'John Doe'
-        city: ''
-        avatarType: 'color'
-        avatarProps:
-          color: '#f868bc'
-    - type: 'mixin'
-      _class: 'contact:class:Person'
-      mixin: 'contact:mixin:Employee'
-      data: 
-        space: contact:space:Contacts
-        _id: ${userPerson}
-        active: true
-    - type: 'create'
-      _class: 'contact:class:PersonAccount'
-      resultVariable: userAccount
-      data:
-        email: 'info@hardcoreeng.com'
-        role: 'OWNER'
-        space: 'core:space:Model'
-        person: ${userPerson}
     - type: 'update'
       _class: 'core:class:PluginConfiguration'
       data:
@@ -524,3 +499,28 @@
         _id: 'plugin-configuration-time'
         enabled: false
         space: 'core:space:Model'
+    - type: 'create'
+      _class: 'contact:class:Person'
+      resultVariable: userPerson
+      data: 
+        space: contact:space:Contacts
+        name: 'John Doe'
+        city: ''
+        avatarType: 'color'
+        avatarProps:
+          color: '#f868bc'
+    - type: 'mixin'
+      _class: 'contact:class:Person'
+      mixin: 'contact:mixin:Employee'
+      data: 
+        space: contact:space:Contacts
+        _id: ${userPerson}
+        active: true
+    - type: 'create'
+      _class: 'contact:class:PersonAccount'
+      resultVariable: userAccount
+      data:
+        email: 'info@hardcoreeng.com'
+        role: 'OWNER'
+        space: 'core:space:Model'
+        person: ${userPerson}
