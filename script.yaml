@@ -83,52 +83,6 @@
           🎉 Congratulations! You’ve completed all of the tasks! ✅ 
 
           We can’t wait to see what you create! 🚀
-      _class: 'tracker:class:Issue'
-      resultVariable: issue1
-      collabFields:
-        - 'description'
-      data:
-        number: 1
-        status: 'tracker:status:Todo'
-        title: 'Create your first project 📌'
-        identifier: 'HULY-1'
-        description: |
-          ### **Welcome to Huly, your all-in-one project management platform!** 
-
-          Embark on an exciting journey to master our next-generation project management tool. Packed with features like collaborative editing, team scheduling, video conferencing and more, the Huly platform is totally customizable to your team’s unique needs.
-
-          Let’s get started by setting up your team workspace! You’ll complete **5 tasks** to learn about the essential features of the Huly platform:
-
-          1. Welcome to Huly! 🌟 (you are here!)
-          2. Create your first **project** 📌
-          3. Create your first **issue** 📝
-          4. Schedule your first **Action Item** 📆
-          5. Explore all Huly has to offer 🚀
-
-          Once you're familiar with Huly, feel free to delete these starter tasks or share them with your team!
-
-          🎉Congratulations! You’ve completed Task 1 just by getting started ✅ Click below to proceed to Task 2!
-
-          ### Next: Task 2 - Create your first project ➡️ [](ref://?_class=tracker%3Aclass%3AIssue&_id=${issue2}&label=HULY-2)
-    
-      _class: 'document:class:Document'
-      data:
-        attachedTo: 'document:ids:NoParent'
-        attachedToClass: 'document:class:Document'
-        collection: 'children'
-        version: 0
-        snapshots: 0
-        space: '${teamSpace}'
-
-      _class: 'attachment:class:Attachment'
-      data:
-        attachedTo: ${doc2}
-        attachedToClass: 'document:class:Document'
-        collection: 'embeddings'
-        file: ${docImage4}
-        name: 'onboardingworkspace-2.jpeg'
-        size: ${docImage4_size}
-        type: 'image/jpeg'
     - type: 'update'
       _class: 'core:class:PluginConfiguration'
       data:
