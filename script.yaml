@@ -313,6 +313,7 @@
         owners: 
           - ${userAccount}
         archived: false
+        autoJoin: true
         space: 'core:space:Space'
         color: '128221'
     - type: 'default'
