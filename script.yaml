@@ -7,6 +7,12 @@
         _id: 'plugin-configuration-calendar'
         enabled: true
         space: 'core:space:Model'
+    - type: 'update'
+      _class: 'core:class:PluginConfiguration'
+      data:
+        _id: 'plugin-configuration-recruit'
+        enabled: true
+        space: 'core:space:Model'
     - type: 'create'
       _class: 'contact:class:Person'
       resultVariable: userPerson
