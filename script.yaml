@@ -11,7 +11,7 @@
       _class: 'core:class:PluginConfiguration'
       data:
         _id: 'plugin-configuration-recruit'
-        enabled: true
+        enabled: false
         space: 'core:space:Model'
     - type: 'create'
       _class: 'contact:class:Person'
