@@ -14,10 +14,6 @@
     Todo: tracker:status:Todo
     Backlog: tracker:status:Backlog
 - type: 'default'
-  _class: 'Configuration'
-  data:
-    space: 'core:space:Model'
-- type: 'default'
   _class: 'Issue'
   collabFields:
     - 'description'

@@ -3,11 +3,13 @@
   data:
     _id: 'plugin-configuration-calendar'
     enabled: true
+    space: 'core:space:Model'
 - type: 'update'
   _class: 'Configuration'
   data:
     _id: 'plugin-configuration-recruit'
     enabled: false
+    space: 'core:space:Model'
 - type: 'createFrom'
   fromUrl: ./HULY-5.yaml
 - type: 'createFrom'

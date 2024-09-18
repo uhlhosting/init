@@ -3,28 +3,34 @@
   data:
     _id: 'plugin-configuration-calendar'
     enabled: true
+    space: 'core:space:Model'
 - type: 'update'
   _class: 'Configuration'
   data:
     _id: 'plugin-configuration-documents'
     enabled: true
+    space: 'core:space:Model'
 - type: 'update'
   _class: 'Configuration'
   data:
     _id: 'plugin-configuration-training'
     enabled: true
+    space: 'core:space:Model'
 - type: 'update'
   _class: 'Configuration'
   data:
     _id: 'plugin-configuration-products'
     enabled: true
+    space: 'core:space:Model'
 - type: 'update'
   _class: 'Configuration'
   data:
     _id: 'plugin-configuration-recruit'
     enabled: false
+    space: 'core:space:Model'
 - type: 'update'
   _class: 'Configuration'
   data:
     _id: 'plugin-configuration-time'
     enabled: false
+    space: 'core:space:Model'
