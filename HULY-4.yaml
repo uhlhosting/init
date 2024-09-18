@@ -33,7 +33,7 @@ description: |
 
   Now, navigate back to the Tracker by clicking the checkbox icon in the left side panel. Notice that the status of your issue *automatically updated* to “In Progress”! That’s because you scheduled your Action Item, indicating your commitment to completing the work.
 
-  ![](image://file?file=${./files/onboarding-create-todo.gif}&width=1440)
+  ![](image://file?file=${file://./files/onboarding-create-todo.gif}&width=1440)
 
   If you’d like, go ahead back to your Planner and check off your Action Item by clicking the round checkbox that appears when you hover over it. You’ll see that the issue status automatically updates to “Done”.
 

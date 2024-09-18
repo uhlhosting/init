@@ -11,6 +11,8 @@
     Teamspace: document:class:Teamspace
     Document: document:class:Document
     DefaultProject: tracker:project:DefaultProject
+    Todo: tracker:status:Todo
+    Backlog: tracker:status:Backlog
 - type: 'default'
   _class: 'Configuration'
   data:
@@ -22,7 +24,7 @@
   data:
     space: 'tracker:project:DefaultProject'
     assignee: '${userPerson}'
-    status: 'tracker:status:Backlog'
+    status: 'Backlog'
     priority: 0
     component: null
     dueDate: null
@@ -53,6 +55,8 @@
     lastModified: '#now'
 - type: 'default'
   _class: 'document:class:Document'
+  collabFields:
+    - 'content'
   data:
     attachedTo: 'document:ids:NoParent'
     attachedToClass: 'document:class:Document'

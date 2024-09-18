@@ -1,6 +1,6 @@
 _class: 'Issue'
 number: 1
-status: 'tracker:status:Todo'
+status: 'Todo'
 title: 'Create your first project 📌'
 identifier: 'HULY-1'
 description: |

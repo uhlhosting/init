@@ -22,7 +22,7 @@ description: |
 
   When you’re ready, click `Create issue`!
 
-  ![](image://file?file=${./files/onboarding-create-issue.gif}&width=1440)
+  ![](image://file?file=${file://./files/onboarding-create-issue.gif}&width=1440)
 
   ---
 

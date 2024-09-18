@@ -24,7 +24,7 @@ description: |
 
   Next, click `Create`!
 
-  ![](image://file?file=${./files/onboarding-create-project.gif}&width=1440)
+  ![](image://file?file=${file://./files/onboarding-create-project.gif}&width=1440)
 
   ---
 

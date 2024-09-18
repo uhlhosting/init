@@ -19,9 +19,9 @@ content: |
 
 
   ***Team Planner - Agenda view***
-  ![](image://file?file=${./files/team-agenda.jpeg}&width=1440)
+  ![](image://file?file=${file://./files/team-agenda.jpeg}&width=1440)
 
   ***Team Planner - Calendar view***
-  ![](image://file?file=${./files/team-calendar.jpeg}&width=1440)
+  ![](image://file?file=${file://./files/team-calendar.jpeg}&width=1440)
 
   As you continue to use Action Items in Huly, you’ll discover how they seamlessly integrate into both your personal and team planning processes, elevating the way you manage and execute tasks. The Team Planner is just one of the many ways Huly empowers you and your team to stay organized, synchronized, and productive.
