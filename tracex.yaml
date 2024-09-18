@@ -1,0 +1,30 @@
+- type: 'update'
+  _class: 'Configuration'
+  data:
+    _id: 'plugin-configuration-calendar'
+    enabled: true
+- type: 'update'
+  _class: 'Configuration'
+  data:
+    _id: 'plugin-configuration-documents'
+    enabled: true
+- type: 'update'
+  _class: 'Configuration'
+  data:
+    _id: 'plugin-configuration-training'
+    enabled: true
+- type: 'update'
+  _class: 'Configuration'
+  data:
+    _id: 'plugin-configuration-products'
+    enabled: true
+- type: 'update'
+  _class: 'Configuration'
+  data:
+    _id: 'plugin-configuration-recruit'
+    enabled: false
+- type: 'update'
+  _class: 'Configuration'
+  data:
+    _id: 'plugin-configuration-time'
+    enabled: false

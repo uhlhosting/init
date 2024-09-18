@@ -1,0 +1,8 @@
+- name: 'test'
+  default: true
+  from: https://raw.githubusercontent.com/hcengineering/init/main/main.yaml
+  steps: []
+- name: 'tracex-init'
+  default: false
+  from: https://raw.githubusercontent.com/hcengineering/init/main/tracex.yaml
+  steps: []

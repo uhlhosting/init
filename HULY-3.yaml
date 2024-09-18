@@ -1,0 +1,33 @@
+_class: 'Issue'
+number: 3
+title: 'Create your first issue 📝'
+identifier: 'HULY-3'
+description: |
+  An **issue** represents a specific task that needs to be completed. Projects can be broken down into issues and sub-issues.
+
+  ### Task 3 - Create your first issue
+
+  Let’s create your first issue in Huly!
+
+  Click the blue `+ New Issue` button at the stop of the side panel (or simply press `C` from any view!). This will open a dialog where you can enter some initial settings for your issue. 
+
+  > **Tip:** By default, the issue will be associated with the project you’re currently viewing. You can change this to the project you just created by selecting it from the dropdown in the top left corner.
+
+  Next, enter some information about your issue: 
+
+  * Provide a **title** and **description**. 
+  * Choose some settings, such as **priority**, **labels**, **estimation** and **due date**. 
+  * The **assignee** will be the default assignee you selected for your project.
+  * ❗ Ensure that the **status** is set to “Todo” — *this is important for the next step!*
+
+  When you’re ready, click `Create issue`!
+
+  ![](image://file?file=${./files/onboarding-create-issue.gif}&width=1440)
+
+  ---
+
+  🎉 Congratulations! You’ve completed Task 3 ✅  
+
+  In the next step, you’ll learn how Huly has *automatically* created an Action Item for this issue, which you’ll schedule in your personal Planner. Click the button below to continue!
+
+  ### Next: Task 4 - Schedule your first Action Item ➡️  [](ref://?_class=${Issue}&_id=${HULY-4}&label=HULY-4)
