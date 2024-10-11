@@ -866,7 +866,7 @@
         version: 0
         snapshots: 0
         space: '${teamSpace}'
-     - type: 'upload'
+    - type: 'upload'
       contentType: 'image/gif'
       resultVariable: docGif1
       fromUrl: https://raw.githubusercontent.com/hcengineering/init/main/files/bold/create-document.gif
