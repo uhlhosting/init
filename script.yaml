@@ -240,7 +240,7 @@
       data:
         number: 1
         status: 'tracker:status:Todo'
-        title: 'Create your first project 📌'
+        title: 'Welcome to Huly! 🌟'
         identifier: 'HULY-1'
         description: |
           ### **Welcome to Huly, your all-in-one project management platform!** 
@@ -773,7 +773,7 @@
       data:
         number: 1
         status: 'tracker:status:Todo'
-        title: 'Создайте свой первый проект 📌'
+        title: 'Добро пожаловать в Bold! 🌟'
         identifier: 'BOLD-1'
         description: |
           ### **Начните работу в Bold, all-in-one системе управления рабочими процессами нового поколения!** 
