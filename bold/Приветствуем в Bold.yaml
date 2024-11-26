@@ -1,0 +1,10 @@
+class: tracker:class:Project
+id: tracker:project:DefaultProject
+title: Приветствуем в Bold!
+identifier: BOLD
+emoji: 🌟
+autoJoin: true
+members: 
+  - newuser@huly.io
+owners: 
+  - newuser@huly.io
