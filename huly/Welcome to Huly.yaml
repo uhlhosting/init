@@ -1,0 +1,10 @@
+class: tracker:class:Project
+id: tracker:project:DefaultProject
+title: Welcome to Huly!
+identifier: HULY
+emoji: 🌟
+autoJoin: true
+members: 
+  - newuser@huly.io
+owners: 
+  - newuser@huly.io
