@@ -1,0 +1,9 @@
+class: document:class:Teamspace
+title: Quick-Start Docs
+description: Quick guides to learn how to get the most from Huly!
+emoji: 📝
+autoJoin: true
+members: 
+  - newuser@huly.io
+owners: 
+  - newuser@huly.io
