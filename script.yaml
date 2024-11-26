@@ -1,5 +1,5 @@
 - name: 'huly'
-  default: false
+  default: true
   steps:
     - type: 'update'
       _class: 'core:class:PluginConfiguration'
@@ -38,6 +38,8 @@
         role: 'OWNER'
         space: 'core:space:Model'
         person: ${userPerson}
+    - type: 'import'
+      path: './huly'
 - name: 'tracex-init'
   default: false
   steps:
@@ -97,7 +99,6 @@
         space: 'core:space:Model'
         person: ${userPerson}
 - name: 'bold'
-  default: true
   steps:
     - type: 'update'
       _class: 'core:class:PluginConfiguration'
@@ -136,3 +137,5 @@
         role: 'OWNER'
         space: 'core:space:Model'
         person: ${userPerson}
+    - type: 'import'
+      path: './bold'
