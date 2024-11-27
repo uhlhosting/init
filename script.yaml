@@ -39,7 +39,10 @@
         space: 'core:space:Model'
         person: ${userPerson}
     - type: 'import'
-      path: './huly'
+      gitHubOwner: 'hcengineering'
+      gitHubRepo: 'init'
+      branch: 'main'
+      path: 'huly'
 - name: 'tracex-init'
   default: false
   steps:
@@ -138,4 +141,7 @@
         space: 'core:space:Model'
         person: ${userPerson}
     - type: 'import'
-      path: './bold'
+      gitHubName: 'hcengineering'
+      gitHubRepo: 'init'
+      branch: 'main'
+      path: 'bold'
