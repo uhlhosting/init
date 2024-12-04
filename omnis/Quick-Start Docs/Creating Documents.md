@@ -1,6 +1,6 @@
 ---
 class: document:class:Document
-title: Creating Documents in Huly
+title: Creating Documents in IPM
 ---
 # **Creating a teamspace**
 
@@ -34,19 +34,19 @@ Images, tables and separator lines are also available by hovering over text and 
 
 # **Enrich your documents with @mentions, Action Items and live collaboration**
 
-Documents are directly integrated within the rest of the Huly platform, making it easy to tag team members, assign Action Items and link to issues. Team members can collaborate in real time, eliminating the need to send files back and forth or meet to discuss revisions.
+Documents are directly integrated within the rest of the IPM platform, making it easy to tag team members, assign Action Items and link to issues. Team members can collaborate in real time, eliminating the need to send files back and forth or meet to discuss revisions.
 
 # **Mentions**
 
-Mention a team member by using @mention syntax. The member will receive a notification that they have been mentioned in the document. 
+Mention a team member by using @mention syntax. The member will receive a notification that they have been mentioned in the document.
 
 # **Creating Action Items**
 
 Create an Action Item by typing `[]` then `space` on a new line. Alternatively, type `/` and select `Action Item` from the dropdown menu. An empty checkbox will appear, and as you begin typing, a profile icon will appear to the left of the checkbox. Click this icon to select a team member to assign the Action Item to. That team member will receive a notification that they have been assigned an Action Item, and they’ll be able to schedule the Action Item in their Planner.
 
-* [ ] You can assign an Action Item any time by hovering over the checkbox and clicking the profile icon. 
+* [ ] You can assign an Action Item any time by hovering over the checkbox and clicking the profile icon.
 * [ ] Try assigning these Action Items to yourself!
 
 # **Real-time collaboration**
 
-Team members can collaborate on documents at the same time! Multiple people can edit and add to documents simultaneously. Check out our [video](https://www.youtube.com/watch?v=cspdJ5TjFNQ) to learn more about collaborative editing in Huly documents!
+Team members can collaborate on documents at the same time! Multiple people can edit and add to documents simultaneously. Check out our [video](https://www.youtube.com/watch?v=cspdJ5TjFNQ) to learn more about collaborative editing in IPM documents!

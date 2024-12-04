@@ -1,10 +1,10 @@
 class: tracker:class:Project
 id: tracker:project:DefaultProject
-title: Welcome to Huly!
+title: Welcome to IPM!
 identifier: HULY
 emoji: 🌟
 autoJoin: true
-members: 
-  - newuser@huly.io
-owners: 
-  - newuser@huly.io
+members:
+  - cosmin@uhl-services.ch
+owners:
+  - cosmin@uhl-services.ch

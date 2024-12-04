@@ -1,4 +1,4 @@
-- name: 'huly'
+- name: 'omnis'
   default: true
   steps:
     - type: 'update'
@@ -16,17 +16,17 @@
     - type: 'create'
       _class: 'contact:class:Person'
       resultVariable: userPerson
-      data: 
+      data:
         space: contact:space:Contacts
-        name: 'New User'
-        city: ''
+        name: Viorel-Cosmin Miron'
+        city: 'Brno'
         avatarType: 'color'
         avatarProps:
           color: '#f868bc'
     - type: 'mixin'
       _class: 'contact:class:Person'
       mixin: 'contact:mixin:Employee'
-      data: 
+      data:
         space: contact:space:Contacts
         _id: ${userPerson}
         active: true
@@ -34,13 +34,13 @@
       _class: 'contact:class:PersonAccount'
       resultVariable: userAccount
       data:
-        email: 'newuser@huly.io'
+        email: 'cosmin@uhl-services.ch'
         role: 'OWNER'
         space: 'core:space:Model'
         person: ${userPerson}
     - type: 'import'
-      path: './huly'
-- name: 'tracex-init'
+      path: './omnis'
+- name: 'uhl'
   default: false
   steps:
     - type: 'update'
@@ -76,17 +76,17 @@
     - type: 'create'
       _class: 'contact:class:Person'
       resultVariable: userPerson
-      data: 
+      data:
         space: contact:space:Contacts
-        name: 'New User'
-        city: ''
+        name: Viorel-Cosmin Miron'
+        city: 'Brno'
         avatarType: 'color'
         avatarProps:
           color: '#f868bc'
     - type: 'mixin'
       _class: 'contact:class:Person'
       mixin: 'contact:mixin:Employee'
-      data: 
+      data:
         space: contact:space:Contacts
         _id: ${userPerson}
         active: true
@@ -94,11 +94,11 @@
       _class: 'contact:class:PersonAccount'
       resultVariable: userAccount
       data:
-        email: 'newuser@huly.io'
+        email: 'cosmin@uhl-services.ch'
         role: 'OWNER'
         space: 'core:space:Model'
         person: ${userPerson}
-- name: 'bold'
+- name: 'test'
   steps:
     - type: 'update'
       _class: 'core:class:PluginConfiguration'
@@ -115,17 +115,17 @@
     - type: 'create'
       _class: 'contact:class:Person'
       resultVariable: userPerson
-      data: 
+      data:
         space: contact:space:Contacts
-        name: 'New User'
-        city: ''
+        name: Viorel-Cosmin Miron'
+        city: 'Brno'
         avatarType: 'color'
         avatarProps:
           color: '#f868bc'
     - type: 'mixin'
       _class: 'contact:class:Person'
       mixin: 'contact:mixin:Employee'
-      data: 
+      data:
         space: contact:space:Contacts
         _id: ${userPerson}
         active: true
@@ -133,7 +133,7 @@
       _class: 'contact:class:PersonAccount'
       resultVariable: userAccount
       data:
-        email: 'newuser@huly.io'
+        email: 'cosmin@uhl-services.ch'
         role: 'OWNER'
         space: 'core:space:Model'
         person: ${userPerson}
